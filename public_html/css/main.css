@@ -1,0 +1,40 @@
+<!-- The primary CSS file for the main template. -->
+ 
+ #headerbar{
+ 	border-bottom: 2px solid black;
+ 	width: 100%;
+ 	height: 10%;
+ 	display:inline-block;
+ }
+
+ #headerbar .logo{
+ 	height: 100%
+ 	width: 20%;
+ }
+
+ #headerbar .logo img{
+ 	width:100px;
+ 	height:100px;
+ }
+
+ #headerbar .filler
+ {
+ 	width:50%;
+ 	height:100%;
+ }
+
+#headerbar .navoptions
+{
+	height: 100%;
+	width:30%;
+}
+
+#headerbar div.navoptions ul.navoptions
+{
+	list-style-type: none;
+}
+
+#headerbar div.navoptions ul.navoptions li
+{
+	float:left;
+}
